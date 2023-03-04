@@ -5,15 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Chrome Landing Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
      <main>
 
         <nav class="page-nav">
             <div class="nav-container">
-                <p class="g-paragraph">Gmail</p>
-                <p class="i-paragraph">Images</p>
-                <img src="icon.jpg" alt="an hamburger menu bar to display goole apps" title="apps">
+
+                <ul>
+                
+                    <li class="n-1"><a href="https://www.gmail.google.com">Gmail</li></a>
+                    <li class="i-2"><a href="https://www.images.google.com">Images</li></a>
+                    <li><a href="https://apps.google.com"><img src="icon.jpg" alt="an hamburger menu bar to display goole apps" title="Google Apps" width="20px" class="a"></li></a>
+                </ul>   
+
             </div>
         </nav>
 
@@ -24,17 +30,17 @@
 
         <section class="section-for-search">
             <div class="search">
-                <form action="">
-                    <button type="submit"><img src="search.jpg" </button>
+                <form action="https://www.google.com/search" method="get" class="search-bar">
+                    <button type="submit" class="search-icon"><img src="search.jpg"> </button>
                     <input type="text" placeholder="Search google or enter a url" name="g">
                 </form>
             </div>
         </section>
 
-        <section class="p-under-search">
+       <!-- <section class="p-under-search">
             <p class="first-us">Google Search</p>
             <p class="second-us">I am feeling Lucky</p>
-        </section>
+        </section>-->
 
 
      </main>
